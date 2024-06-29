@@ -33,11 +33,7 @@ h6 {
     margin: 0;
 }
 
-.container {
-    width: 100%;
-    max-width: 1647px;
-    margin: 0 auto;
-}
+
 
 header.header {
     padding: 25px 0;
@@ -50,7 +46,7 @@ header.header {
 }
 
 .header-logo img {
-    width: auto;
+    max-width: 150px;
 }
 
 /* Personal Finance For Wealth Creation */
@@ -132,7 +128,7 @@ section.personal {
 }
 
 .date-content p {
-    font-size: 25px;
+    font-size: 18px;
     color: #f8f8f8;
     font-weight: 700;
     font-family: "Poppins";
@@ -268,7 +264,7 @@ section.why-should {
 .jion-if-want h2 {
     font-size: 55px;
     color: #010101;
-    font-weight: 700;
+    font-weight: 500;
     font-family: "Poppins";
     text-align: center;
     position: relative;
@@ -325,7 +321,6 @@ section.why-should {
 
 /*  */
 .this-workshop {
-    max-width: 1648px;
     border-radius: 10px;
     background-color: #0057a7;
     width: 100%;
