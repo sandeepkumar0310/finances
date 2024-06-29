@@ -54,7 +54,7 @@ section.personal {
     background: url(../img/vect.png)no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 91px 0 200px;
+    padding: 91px 0;
 }
 
 .personal-content {
@@ -80,20 +80,29 @@ section.personal {
     filter: drop-shadow(1.463px 13.923px 8px rgba(0, 0, 0, 0.1));
     transition: all 0.3s linear;
     border: 1px solid #0056a7;
+    position: relative;
 
 }
 
-.live-workshop a:hover {
-    background-color: transparent;
-    border: 1px solid #0056a7;
-    color: #0056a7;
+.live-workshop a::before {
+    content: '';
+    height: 15px;
+    width: 15px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    background-color: #fff;
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
 }
+
 
 .personal-content p.create-long {
     font-size: 50px;
     color: #000000;
     font-weight: 500;
-
+    line-height: 60px;
 }
 
 .personal-content span {
@@ -187,7 +196,7 @@ section.personal {
 }
 
 .enrollment p {
-    font-size: 33px;
+    font-size: 24px;
     color: #000000;
     font-weight: 400;
     font-family: "Poppins";
@@ -199,7 +208,7 @@ section.personal {
 }
 
 .enrollment span {
-    font-size: 33px;
+    font-size: 24px;
     color: #000000;
     font-weight: 400;
     font-family: "Poppins";
@@ -211,6 +220,19 @@ section.personal {
 .ravi-dutt-sharma {
     text-align: center;
     margin-top: 40px;
+}
+
+.timer-count span {
+    width: 141px;
+    height: 129px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #fff;
+    display: inline-block;
+}
+
+.timer-count {
+    margin-top: 30px;
 }
 
 .ravi-dutt-sharma a {
@@ -357,7 +379,7 @@ section.why-should {
 }
 
 .trap p {
-    font-size: 29px;
+    font-size: 18px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Poppins";
@@ -379,7 +401,7 @@ section.clients-succes {
     font-weight: 500;
     font-family: "Poppins";
     text-align: center;
-    margin-bottom: 105px;
+    margin-bottom: 50px;
 }
 
 .stories .row .col-lg-6 {
@@ -443,7 +465,7 @@ section.working-work {
 
 .register-at {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .register-at a {
@@ -474,7 +496,7 @@ section.working-work {
 
 .qualified p {
     max-width: 943px;
-    font-size: 33px;
+    font-size: 20px;
     color: #000000;
     font-weight: 400;
     font-family: "Poppins";
@@ -483,7 +505,7 @@ section.working-work {
 }
 
 section.about-coach {
-    padding: 80px 0 210px;
+    padding: 80px 0;
     background: url(../img/vect.png)no-repeat;
     background-position: center;
     background-size: cover;
@@ -521,7 +543,7 @@ h5.mb-0 {
 }
 
 .counter-box-inner p {
-    font-size: 29px;
+    font-size: 18px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Poppins";
