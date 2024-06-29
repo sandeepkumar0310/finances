@@ -54,7 +54,7 @@ section.personal {
     background: url(../img/vect.png)no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 91px 0;
+    padding: 70px 0;
 }
 
 .personal-content {
@@ -144,7 +144,7 @@ section.personal {
 }
 
 .workshop-detail-icon {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .workshop-detail-content h2 {
@@ -165,8 +165,9 @@ section.personal {
     background-size: cover;
     height: 50px;
     width: 376px;
-    left: 165px;
+    left: 50%;
     bottom: -32px;
+    transform: translateX(-50%);
 }
 
 .workshop-detail {

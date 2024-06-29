@@ -1,5 +1,64 @@
 @media(max-width:991px) {
+    .workshop-detail-icon .col-lg-6 {
+        margin-bottom: 20px;
+    }
+
+    .workshop-detail-icon {
+        margin-bottom: 0;
+    }
+
+    .workshop-detail-content h2::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     .row.realtiy {
         flex-direction: column-reverse;
+    }
+
+    .workshop-detail {
+        padding-top: 40px;
+    }
+
+    .ravi-dutt-sharma a {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .register-now a {
+        font-size: 20px;
+        padding: 15px 50px;
+    }
+
+    .personal-content p.personal-finace {
+        font-size: 30px;
+    }
+
+    .personal-content p.create-long {
+        font-size: 30px;
+        line-height: 46px;
+    }
+
+    .personal-content span {
+        font-size: 30px;
+    }
+
+    .workshop-detail-content h2 {
+        font-size: 36px;
+
+    }
+
+    .jion-if-want h2 {
+        font-size: 30px;
+    }
+
+    .succes-our h2 {
+        font-size: 36px;
+    }
+
+    .Workshop-content h2 {
+        font-size: 36px;
     }
 }
