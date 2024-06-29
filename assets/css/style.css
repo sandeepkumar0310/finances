@@ -233,10 +233,19 @@ section.personal {
 
 .timer-count {
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.timer-count span b {
+    font-size: 33px;
 }
 
 .ravi-dutt-sharma a {
-    font-size: 49px;
+    font-size: 44px;
     color: #000000;
     font-weight: 700;
     font-family: "Poppins";
@@ -253,7 +262,7 @@ section.personal {
 section.jion-if {
     filter: drop-shadow(1.986px 18.896px 35px rgba(255, 255, 255, 0.54));
     background-color: #eef6ff;
-    padding: 79px 0 150px;
+    padding: 79px 0 100px;
 }
 
 section.why-should {
@@ -277,7 +286,7 @@ section.why-should {
 }
 
 .manage-your p {
-    font-size: 25px;
+    font-size: 18px;
     color: #000000;
     font-weight: 400;
     font-family: "Poppins";
@@ -312,11 +321,10 @@ section.why-should {
 
 .register-now-noe {
     text-align: center;
-    margin-top: 40px;
 }
 
 .register-now-noe a {
-    font-size: 37px;
+    font-size: 36px;
     color: #000000;
     font-weight: 700;
     font-family: "Poppins";
@@ -469,7 +477,7 @@ section.working-work {
 }
 
 .register-at a {
-    font-size: 37px;
+    font-size: 30px;
     color: #000000;
     font-weight: 700;
     font-family: "Poppins";
@@ -479,7 +487,7 @@ section.working-work {
     padding: 18px 26px;
     display: inline-block;
     border-radius: 50px;
-    margin-bottom: 48px;
+    margin-bottom: 40px;
 }
 
 .register-at p {
@@ -582,7 +590,7 @@ section.counter-sec {
 }
 
 div#accordionExample {
-    margin-top: 101px;
+    margin-top: 68px;
 }
 
 .accordion-item {
@@ -626,7 +634,7 @@ footer {
 }
 
 .register-now-at a {
-    font-size: 37px;
+    font-size: 30px;
     color: #000000;
     font-weight: 700;
     font-family: "Poppins";
@@ -638,7 +646,7 @@ footer {
 }
 
 .june p {
-    font-size: 33px;
+    font-size: 24px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Poppins";
