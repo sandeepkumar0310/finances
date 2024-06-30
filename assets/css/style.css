@@ -168,6 +168,7 @@ section.personal {
     left: 50%;
     bottom: -32px;
     transform: translateX(-50%);
+    background-position: center;
 }
 
 .workshop-detail {
@@ -314,6 +315,7 @@ section.why-should {
     left: 50%;
     bottom: -32px;
     transform: translateX(-50%);
+    background-position: center;
 }
 
 .to-learn .row .col-lg-6 {
@@ -379,6 +381,7 @@ section.why-should {
     width: 376px;
     left: 50%;
     bottom: -32px;
+    background-position: center;
     transform: translateX(-50%);
 }
 
@@ -445,6 +448,7 @@ section.working-work {
     left: 50%;
     bottom: -32px;
     transform: translateX(-50%);
+    background-position: center;
 }
 
 .working-work-p img {
@@ -560,7 +564,6 @@ h5.mb-0 {
 }
 
 .frequently-heading {
-    max-width: 1632px;
     border-radius: 10px;
     background-color: #0a5eab;
     width: 100%;
